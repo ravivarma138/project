@@ -3,7 +3,6 @@ name: Production Workflow 1
 on:
   push:
     branches:
-      - 'master'
       - 'google_maps'
     tags:
       - 'v*'
